@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emergency Assistance</title>
+    <link rel="stylesheet" href="emergency_help.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <strong>MIND LINK</strong>
+            </div>
+            <nav class="nav">
+                <a href="index.html">Home Page</a>
+                <a href="independent.html">Independent Assistance Discussion Board</a>
+                <a href="expert.html">Expert Advisory Center</a>
+                <a href="customized_advisory.html">Portal for Customized Well-being</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <h2>Emergency Contact Information</h2>
+        <p>Reach out to us immediately for any emergency assistance or support.</p>
+
+        <div class="form-container">
+            <!-- Contact Form -->
+            <form class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea>
+
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+
+            <!-- Map Section -->
+            <div class="map-section">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.780623991012!2d85.36391707434615!3d27.738987379659575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb198d84b204a9%3A0xa88c04f5c2e50fe2!2sKhari%20Bot%2C%20Kapan%2C%20Kathmandu!5e0!3m2!1sen!2snp!4v1698076675839!5m2!1sen!2snp"
+                    width="300" 
+                    height="250" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+
+            <!-- Contact Information -->
+            <div class="contact-info">
+                <label>Address:</label>
+                <input type="text" value="Kapan, Kathmandu" readonly>
+
+                <label>Phone number:</label>
+                <input type="text" value="9824750447" readonly>
+
+                <label>Gmail:</label>
+                <input type="text" value="tmgdgash@gmail.com" readonly>
+            </div>
+        </div>
+    </div>
+
+    <script src="emergency.js"></script>
+</body>
+</html>
